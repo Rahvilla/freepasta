@@ -1,10 +1,123 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html><head><style>
+       
+    
+.row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+    
+ img {
+     width:100%
+         
+    }
+  .container {
+      width:33%
+    }
+    
+    .text-block {
+  position: relative;
+  bottom: 20px;
+ 
+  background-color: black;
+  color: white;
 
-<h1>My First Heading</h1>
+}
+    
 
-<p>My first paragraph.</p>
+    
+@media screen and (max-width: 768px) {
 
-</body>
-</html>
+   /*css specific to small screens under 768px width here*/
+
+.row {
+       width:100%;
+   }
+
+    
+     img {
+     width:100%
+         
+    }
+  .container {
+      width:50%
+    }
+    
+   .text-block {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+    
+    
+    
+    </style></head>
+    
+    
+    
+    
+    <body>
+
+    <div class="header" style="
+    /* margin: auto; */
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: &quot;arial&quot;;
+    font-size: 40px;
+    ">Preloved</div>
+
+    <div class="row"> 
+        <div class="container">
+    <img src="https://si.wsj.net/public/resources/images/BF-AP578_GILLET_16U_20170403184207.jpg">
+              <div class="text-block">
+    <h4>Nature</h4>
+    
+  </div>
+                                                                                                </div>
+  <div class="container">
+    <img src="https://si.wsj.net/public/resources/images/BF-AP578_GILLET_16U_20170403184207.jpg">
+        <div class="text-block">
+    <h4>Nature</h4>
+    
+  </div>
+                                                                                                </div>
+    <div class="container">
+    <img src="https://si.wsj.net/public/resources/images/BF-AP578_GILLET_16U_20170403184207.jpg">
+          <div class="text-block">
+    <h4>Nature</h4>
+    
+  </div>
+                                                                                                </div>
+    <div class="container">
+    <img src="https://si.wsj.net/public/resources/images/BF-AP578_GILLET_16U_20170403184207.jpg">
+          
+                                                                                                </div>
+    <div class="container">
+    <img src="https://si.wsj.net/public/resources/images/BF-AP578_GILLET_16U_20170403184207.jpg">
+          
+                                                                                                </div><div class="container">
+    <img src="https://si.wsj.net/public/resources/images/BF-AP578_GILLET_16U_20170403184207.jpg">
+      
+                                                                                                </div>
+
+  <div class="column" style="
+    /* width: 25%; */
+    /* flex: auto; */
+    /* margin: auto; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+">
+
+  </div>
+  </div>
+
+</body></html>
